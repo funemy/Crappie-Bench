@@ -23,11 +23,11 @@ public class Race {
             Object lock2 = this;
             lock2 = lock;
             int r1,r2;
-            //synchronized(lock2)
+            synchronized(lock2)
             {
                 r1 = y;
             }
-            synchronized(lock2)
+            //synchronized(lock2)
             {
                 r2 =x;
             }
