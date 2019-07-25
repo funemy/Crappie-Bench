@@ -27,7 +27,7 @@ public class Race {
             {
                 r1 = y;
             }
-            //synchronized(lock2)
+            synchronized(lock2)
             {
                 r2 =x;
             }

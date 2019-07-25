@@ -5,21 +5,36 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        {
-            Thread thread = new Thread(() -> {
+        Thread thread1 = new Thread(new Runnable() {
+            @Override
+            public void run()
+            {
                 System.out.println(lck);
-//                synchronized (lck)
+                synchronized (lck)
                 {
                     x = 2;
                 }
-            });
-            thread.start();
-
-//            synchronized (lck)
-            {
-                x = 20;
-                x = 10;
             }
-        }
+        });
+
+        Thread thread2 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                synchronized (lck)
+                {
+                    x = 9;
+                }
+            }
+        });
+
+        thread1.start();
+        thread2.start();
+//        synchronized (lck)
+//        {
+//            x = 20;
+//            x = 10;
+//            x = 7;
+//            x = 10;
+//        }
     }
 }
