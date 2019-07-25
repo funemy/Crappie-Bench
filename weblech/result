@@ -1,0 +1,1593 @@
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.565] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.565] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.566] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.567] [bug-akka.actor.default-dispatcher-2] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.568] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.569] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.570] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.571] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.572] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.572] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.573] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.574] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.575] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.575] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.576] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.577] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.578] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.578] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.579] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:748)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.580] [bug-akka.actor.default-dispatcher-2] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.580] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.581] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:748)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.582] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.583] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.584] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.586] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:748)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.587] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:748)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.588] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.588] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.589] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:748)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.590] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+	at edu.tamu.aser.tide.trace.MemNode.equals(MemNode.java:78)
+	at java.util.ArrayList.indexOf(ArrayList.java:321)
+	at edu.tamu.aser.tide.graph.SHBGraph.compareParent(SHBGraph.java:131)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.hasHBRelation(BugWorker.java:737)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.checkLockSetAndHappensBefore(BugWorker.java:492)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.processCheckDatarace(BugWorker.java:318)
+	at edu.tamu.cse.aser.tide.akkasys.BugWorker.onReceive(BugWorker.java:51)
+	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:165)
+	at akka.actor.Actor.aroundReceive(Actor.scala:496)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:494)
+	at akka.actor.UntypedActor.aroundReceive(UntypedActor.scala:95)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[ERROR] [04/16/2018 22:35:19.591] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.592] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.593] [bug-akka.actor.default-dispatcher-2] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.594] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.595] [bug-akka.actor.default-dispatcher-2] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.596] [bug-akka.actor.default-dispatcher-2] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.597] [bug-akka.actor.default-dispatcher-3] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.598] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.599] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.599] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.600] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.601] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.601] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.602] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.603] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.604] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.605] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.606] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.608] [bug-akka.actor.default-dispatcher-2] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.609] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.610] [bug-akka.actor.default-dispatcher-2] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.611] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.613] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.614] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.615] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.616] [bug-akka.actor.default-dispatcher-2] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.616] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.617] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.617] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.618] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.619] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.620] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.620] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.621] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.622] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.622] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.623] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.624] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.625] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.626] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.627] [bug-akka.actor.default-dispatcher-2] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.628] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.629] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.629] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.630] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.631] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.632] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.633] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.633] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.634] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.635] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.635] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.636] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.637] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.637] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.638] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.639] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.640] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.640] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.641] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.642] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.642] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.643] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.644] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.645] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.646] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.646] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.648] [bug-akka.actor.default-dispatcher-3] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.648] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.649] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.650] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.650] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.651] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.652] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.652] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.653] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.654] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.654] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.655] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.656] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.656] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.657] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.658] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.659] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.660] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.660] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.661] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.662] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.663] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.663] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.664] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.664] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.665] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.666] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.666] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.667] [bug-akka.actor.default-dispatcher-2] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.668] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.668] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.669] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.670] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.671] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.671] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.672] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.672] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.673] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.673] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.674] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.674] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.674] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.675] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.675] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.676] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.676] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.677] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.677] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.678] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.678] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.679] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.679] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.680] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.680] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.680] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.681] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.681] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.682] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.682] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.683] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.683] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.683] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.684] [bug-akka.actor.default-dispatcher-3] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.684] [bug-akka.actor.default-dispatcher-3] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.685] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.685] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.685] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.686] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.686] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.687] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.687] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.688] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.688] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.689] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.689] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.690] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.690] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.691] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.691] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.692] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.692] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.693] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.693] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.694] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.694] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.695] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.695] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.696] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.697] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.697] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.698] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.698] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.699] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.699] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.700] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.700] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.700] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.701] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.701] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.702] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.703] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.704] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.704] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.707] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.708] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.709] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.709] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.710] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.711] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.711] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.712] [bug-akka.actor.default-dispatcher-3] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.712] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.713] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.713] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.714] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.714] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.715] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.716] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.716] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.717] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.718] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.719] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.719] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.720] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.721] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.721] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.722] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.722] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.722] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.723] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.724] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.724] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.725] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.725] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.726] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.726] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.727] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.728] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.729] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.729] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.730] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.730] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.731] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.732] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.732] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.733] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.733] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.734] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.734] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.735] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.735] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.736] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.736] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.737] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.737] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.738] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.738] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.739] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.739] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.739] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.740] [bug-akka.actor.default-dispatcher-23] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.740] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.742] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.742] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.743] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.744] [bug-akka.actor.default-dispatcher-30] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.744] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.745] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.746] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.746] [bug-akka.actor.default-dispatcher-6] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.747] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.747] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.748] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.748] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.749] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.749] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.750] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.751] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.751] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.751] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.752] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.752] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.753] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.753] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.754] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.754] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.755] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.756] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.757] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.758] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.759] [bug-akka.actor.default-dispatcher-5] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.759] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.760] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.760] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.761] [bug-akka.actor.default-dispatcher-25] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.762] [bug-akka.actor.default-dispatcher-31] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.762] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.763] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.763] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.764] [bug-akka.actor.default-dispatcher-29] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.765] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.765] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.766] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.767] [bug-akka.actor.default-dispatcher-36] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.768] [bug-akka.actor.default-dispatcher-36] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.768] [bug-akka.actor.default-dispatcher-32] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.769] [bug-akka.actor.default-dispatcher-32] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.769] [bug-akka.actor.default-dispatcher-36] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.770] [bug-akka.actor.default-dispatcher-32] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.770] [bug-akka.actor.default-dispatcher-32] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.771] [bug-akka.actor.default-dispatcher-32] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.772] [bug-akka.actor.default-dispatcher-36] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.772] [bug-akka.actor.default-dispatcher-32] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.773] [bug-akka.actor.default-dispatcher-32] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.773] [bug-akka.actor.default-dispatcher-36] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.774] [bug-akka.actor.default-dispatcher-32] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.775] [bug-akka.actor.default-dispatcher-4] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.775] [bug-akka.actor.default-dispatcher-32] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.776] [bug-akka.actor.default-dispatcher-24] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.776] [bug-akka.actor.default-dispatcher-32] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.777] [bug-akka.actor.default-dispatcher-32] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.777] [bug-akka.actor.default-dispatcher-32] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+[ERROR] [04/16/2018 22:35:19.777] [bug-akka.actor.default-dispatcher-32] [akka://bug/user/bughub/bugWorkerRouter] null
+java.lang.NullPointerException
+
+
