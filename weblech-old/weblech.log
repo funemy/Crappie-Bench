@@ -1,0 +1,63 @@
+2019-04-30 09:21:22,385 [main] DEBUG Log4j.java:53 - Log4j configured
+2019-04-30 09:21:22,387 [main] DEBUG SpiderConfig.java:111 - SpiderConfig(props)
+2019-04-30 09:21:22,387 [main] DEBUG SpiderConfig.java:139 - Constructing relative file name download/mailto.txt
+2019-04-30 09:21:22,388 [main] DEBUG SpiderConfig.java:431 - parseSet(htm,html,shtm,shtml)
+2019-04-30 09:21:22,388 [main] DEBUG SpiderConfig.java:431 - parseSet(gif,jpg,jpeg,png,bmp)
+2019-04-30 09:21:22,388 [main] DEBUG WeblechSpider.java:95 - depthFirst:	false
+maxDepth:	2
+htmlExtensions:	htm,html,shtm,shtml
+imageExtensions:	jpg,bmp,gif,png,jpeg
+refreshHTMLs:	true
+refreshImages:	false
+refreshOthers:	false
+saveRootDirectory:	download
+startLocation:	http://www.google.com/
+urlMatch:	slashdot.org
+userAgent:	Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)
+basicAuthUser:	myUser
+basicAuthPassword:	***
+spiderThreads:	2
+checkpointInterval:	30000
+2019-04-30 09:21:22,403 [main] INFO  WeblechSpider.java:104 - Starting Spider...
+2019-04-30 09:21:22,403 [main] INFO  Spider.java:89 - Starting Spider thread
+2019-04-30 09:21:22,403 [main] INFO  Spider.java:89 - Starting Spider thread
+2019-04-30 09:21:22,405 [Spider-Thread-1] DEBUG URLGetter.java:53 - URLGetter()
+2019-04-30 09:21:22,405 [Spider-Thread-2] DEBUG URLGetter.java:53 - URLGetter()
+2019-04-30 09:21:22,406 [Spider-Thread-2] DEBUG DumbAuthenticator.java:50 - DumbAuthenticator(myUser, ***)
+2019-04-30 09:21:22,405 [Spider-Thread-1] DEBUG DumbAuthenticator.java:50 - DumbAuthenticator(myUser, ***)
+2019-04-30 09:21:22,406 [Spider-Thread-2] DEBUG Spider.java:128 - writeCheckpoint()
+2019-04-30 09:21:22,426 [Spider-Thread-2] DEBUG Spider.java:251 - downloadURL(http://www.google.com/, referer null, depth 0)
+2019-04-30 09:21:22,427 [Spider-Thread-2] INFO  Spider.java:259 - Q: [0 URLs] http://www.google.com/, referer null, depth 0
+2019-04-30 09:21:22,427 [Spider-Thread-2] DEBUG URLGetter.java:61 - getURL(http://www.google.com/, referer null, depth 0)
+2019-04-30 09:21:22,427 [Spider-Thread-2] DEBUG URLGetter.java:75 - Creating HTTP connection to http://www.google.com/
+2019-04-30 09:21:22,429 [Spider-Thread-2] DEBUG URLGetter.java:85 - Setting User-Agent to Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)
+2019-04-30 09:21:22,429 [Spider-Thread-2] DEBUG URLGetter.java:91 - Opening URL
+2019-04-30 09:21:22,488 [Spider-Thread-2] DEBUG URLGetter.java:96 - Remote server response: OK
+2019-04-30 09:21:22,488 [Spider-Thread-2] INFO  URLGetter.java:99 - Server response: HTTP/1.1 200 OK
+2019-04-30 09:21:22,489 [Spider-Thread-2] DEBUG URLGetter.java:109 - Received header Date: Tue, 30 Apr 2019 14:21:23 GMT
+2019-04-30 09:21:22,489 [Spider-Thread-2] DEBUG URLGetter.java:109 - Received header Expires: -1
+2019-04-30 09:21:22,489 [Spider-Thread-2] DEBUG URLGetter.java:109 - Received header Cache-Control: private, max-age=0
+2019-04-30 09:21:22,489 [Spider-Thread-2] DEBUG URLGetter.java:109 - Received header Content-Type: text/html; charset=UTF-8
+2019-04-30 09:21:22,489 [Spider-Thread-2] DEBUG URLGetter.java:109 - Received header P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+2019-04-30 09:21:22,489 [Spider-Thread-2] DEBUG URLGetter.java:109 - Received header Server: gws
+2019-04-30 09:21:22,489 [Spider-Thread-2] DEBUG URLGetter.java:109 - Received header X-XSS-Protection: 0
+2019-04-30 09:21:22,489 [Spider-Thread-2] DEBUG URLGetter.java:109 - Received header X-Frame-Options: SAMEORIGIN
+2019-04-30 09:21:22,489 [Spider-Thread-2] DEBUG URLGetter.java:109 - Received header Set-Cookie: NID=182=MoSrc__UJUsdrEqJ2t4VkcqpbB-QTW1dpJQedM02CTVUv6QJbDzjHLh6Uj4m5aWZEkkwxduIOIZEnu6_gtQAzh74gRl3oAHcbb7Q6nIDAz1kE8tn2VvJ1ZhPvvO7KAIJvrzTnIPvAS401qOtJmU5ik_tCRSGpf3wXZYSnJadgqE; expires=Wed, 30-Oct-2019 14:21:23 GMT; path=/; domain=.google.com; HttpOnly
+2019-04-30 09:21:22,489 [Spider-Thread-2] DEBUG URLGetter.java:109 - Received header Set-Cookie: NID=182=MoSrc__UJUsdrEqJ2t4VkcqpbB-QTW1dpJQedM02CTVUv6QJbDzjHLh6Uj4m5aWZEkkwxduIOIZEnu6_gtQAzh74gRl3oAHcbb7Q6nIDAz1kE8tn2VvJ1ZhPvvO7KAIJvrzTnIPvAS401qOtJmU5ik_tCRSGpf3wXZYSnJadgqE; expires=Wed, 30-Oct-2019 14:21:23 GMT; path=/; domain=.google.com; HttpOnly
+2019-04-30 09:21:22,489 [Spider-Thread-2] DEBUG URLGetter.java:109 - Received header Accept-Ranges: none
+2019-04-30 09:21:22,490 [Spider-Thread-2] DEBUG URLGetter.java:109 - Received header Vary: Accept-Encoding
+2019-04-30 09:21:22,490 [Spider-Thread-2] DEBUG URLGetter.java:109 - Received header Transfer-Encoding: chunked
+2019-04-30 09:21:22,490 [Spider-Thread-2] DEBUG URLGetter.java:112 - Getting buffered input stream from remote connection
+2019-04-30 09:21:22,491 [Spider-Thread-2] INFO  URLGetter.java:128 - Downloaded 4676 bytes, 9352 bytes/sec
+2019-04-30 09:21:22,491 [Spider-Thread-2] DEBUG HTMLParser.java:67 - parseAsHTML()
+2019-04-30 09:21:22,491 [Spider-Thread-2] DEBUG HTMLParser.java:90 - extractAttributesFromTags(img, src, ...)
+2019-04-30 09:21:22,492 [Spider-Thread-2] DEBUG HTMLParser.java:90 - extractAttributesFromTags(a, href, ...)
+2019-04-30 09:21:22,501 [Spider-Thread-2] DEBUG HTMLParser.java:90 - extractAttributesFromTags(body, background, ...)
+2019-04-30 09:21:22,502 [Spider-Thread-2] DEBUG HTMLParser.java:90 - extractAttributesFromTags(frame, src, ...)
+2019-04-30 09:21:22,502 [Spider-Thread-2] DEBUG HTMLParser.java:90 - extractAttributesFromTags(IMG, SRC, ...)
+2019-04-30 09:21:22,502 [Spider-Thread-2] DEBUG HTMLParser.java:90 - extractAttributesFromTags(A, HREF, ...)
+2019-04-30 09:21:22,502 [Spider-Thread-2] DEBUG HTMLParser.java:90 - extractAttributesFromTags(BODY, BACKGROUND, ...)
+2019-04-30 09:21:22,502 [Spider-Thread-2] DEBUG HTMLParser.java:90 - extractAttributesFromTags(FRAME, SRC, ...)
+2019-04-30 09:21:22,502 [Spider-Thread-2] DEBUG HTMLParser.java:84 - Returning 19 urls extracted from page
+2019-04-30 09:21:22,502 [Spider-Thread-2] INFO  Spider.java:229 - Spider thread stopping
+2019-04-30 09:21:22,927 [Spider-Thread-1] INFO  Spider.java:229 - Spider thread stopping

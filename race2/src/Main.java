@@ -29,12 +29,12 @@ public class Main {
 
         thread1.start();
         thread2.start();
-//        synchronized (lck)
-//        {
-//            x = 20;
-//            x = 10;
-//            x = 7;
-//            x = 10;
-//        }
+        synchronized (lck)
+        {
+            x = 20;
+            x = 10;
+            x = 7;
+            x = 10;
+        }
     }
 }
