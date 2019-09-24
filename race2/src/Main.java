@@ -29,7 +29,7 @@ public class Main {
 
         thread1.start();
         thread2.start();
-        synchronized (lck)
+        //synchronized (lck)
         {
             x = 20;
             x = 10;
